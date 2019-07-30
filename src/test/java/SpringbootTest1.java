@@ -13,7 +13,7 @@ public class SpringbootTest1 {
 	@Test
 	public void test() throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Users\\C-PN19\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	 driver = new ChromeDriver();
 	 driver.get("http://localhost:8020");
 	 driver.manage().window().maximize();
